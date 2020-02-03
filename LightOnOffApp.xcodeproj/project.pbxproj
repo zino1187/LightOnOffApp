@@ -13,6 +13,9 @@
 		AC32C1B923E8485300B6C3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32C1B723E8485300B6C3C4 /* Main.storyboard */; };
 		AC32C1BB23E8485400B6C3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC32C1BA23E8485400B6C3C4 /* Assets.xcassets */; };
 		AC32C1BE23E8485400B6C3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32C1BC23E8485400B6C3C4 /* LaunchScreen.storyboard */; };
+		AC32C1CB23E84C2B00B6C3C4 /* switch_off.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C1C823E84C2B00B6C3C4 /* switch_off.png */; };
+		AC32C1CC23E84C2B00B6C3C4 /* switch_on.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C1C923E84C2B00B6C3C4 /* switch_on.png */; };
+		AC32C1CD23E84C2B00B6C3C4 /* room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC32C1CA23E84C2B00B6C3C4 /* room.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AC32C1BA23E8485400B6C3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC32C1BD23E8485400B6C3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC32C1BF23E8485400B6C3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC32C1C823E84C2B00B6C3C4 /* switch_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_off.png; sourceTree = "<group>"; };
+		AC32C1C923E84C2B00B6C3C4 /* switch_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_on.png; sourceTree = "<group>"; };
+		AC32C1CA23E84C2B00B6C3C4 /* room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		AC32C1A523E8485300B6C3C4 = {
 			isa = PBXGroup;
 			children = (
+				AC32C1C723E84C2000B6C3C4 /* images */,
 				AC32C1B023E8485300B6C3C4 /* LightOnOffApp */,
 				AC32C1AF23E8485300B6C3C4 /* Products */,
 			);
@@ -65,6 +72,16 @@
 				AC32C1BF23E8485400B6C3C4 /* Info.plist */,
 			);
 			path = LightOnOffApp;
+			sourceTree = "<group>";
+		};
+		AC32C1C723E84C2000B6C3C4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC32C1CA23E84C2B00B6C3C4 /* room.jpg */,
+				AC32C1C823E84C2B00B6C3C4 /* switch_off.png */,
+				AC32C1C923E84C2B00B6C3C4 /* switch_on.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC32C1CC23E84C2B00B6C3C4 /* switch_on.png in Resources */,
 				AC32C1BE23E8485400B6C3C4 /* LaunchScreen.storyboard in Resources */,
+				AC32C1CB23E84C2B00B6C3C4 /* switch_off.png in Resources */,
 				AC32C1BB23E8485400B6C3C4 /* Assets.xcassets in Resources */,
+				AC32C1CD23E84C2B00B6C3C4 /* room.jpg in Resources */,
 				AC32C1B923E8485300B6C3C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
